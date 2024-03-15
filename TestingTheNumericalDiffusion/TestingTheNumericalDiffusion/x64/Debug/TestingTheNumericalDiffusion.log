@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\HFKJ059\source\repos\TestingTheNumericalDiffusion\TestingTheNumericalDiffusion\TestingTheNumericalDiffusion.h(121,14): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  TestingTheNumericalDiffusion.vcxproj -> C:\Users\HFKJ059\source\repos\TestingTheNumericalDiffusion\x64\Debug\TestingTheNumericalDiffusion.exe
