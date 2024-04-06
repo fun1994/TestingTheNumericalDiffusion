@@ -105,7 +105,7 @@ class TestingTheNumericalDiffusion {
 		for (int i = 0; i < A.size() - 1; i++) {
 			int index = i;
 			for (int j = i + 1; j < A.size(); j++) {
-				index = abs(A[index][i] < abs(A[j][i])) ? j : index;
+				index = abs(A[index][i]) < abs(A[j][i]) ? j : index;
 			}
 			for (int j = i; j < A.size(); j++) {
 				std::swap(A[i][j], A[index][j]);
